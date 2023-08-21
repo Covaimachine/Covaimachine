@@ -228,6 +228,11 @@
       #navbar li:hover #contactus_submenu {
         display: block;
       }
+      .vids1{
+        display:grid;
+        grid-template-columns: 300px 300px;
+        column-gap:20px;
+      }
       
       @media screen and (max-width: 600px) {
         #navbar a, #navbar li:hover #products_submenu {
