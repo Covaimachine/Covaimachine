@@ -123,12 +123,42 @@
       margin-right: 30px;
       padding-left: 40px;
       }
+      @media screen and (max-width: 600px) {
+         .Rollform1{
+            float: none;
+            display: block;
+            text-align: left;
+            width: 100%;
+        }
+   
+      }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        /* Styles for tablets */
+        .Rollform1{
+          float: none;
+          display: block;
+          text-align: left;
+          width: 100%;
+      }
+
+      }
+      @media (min-width: 1024px) {
+        /* Styles for desktops */
+
+        .Rollform1{
+          float: none;
+          display: block;
+          text-align: left;
+          width: 100%;
+      }
+      }
 
       </style>
 
 </head>
     
     <body>
+      <div class="Rollform1">
         <div class="hbtn">
             <a href="index.html">
                 <button class="homebutton">HOME</button>
@@ -236,5 +266,6 @@
                   thumbnails[slideIndex - 1].style.border = "2px solid black";
                 }
                 </script>
+    </div>
     </body>
 </html>

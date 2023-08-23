@@ -235,13 +235,34 @@
       }
       
       @media screen and (max-width: 600px) {
-        #navbar a, #navbar li:hover #products_submenu {
+        #navbar a, #navbar li:hover #products_submenu, .Mainbody,.Aboutus1 {
             float: none;
             display: block;
             text-align: left;
             width: 100%;
         }
+   
+      }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        /* Styles for tablets */
+        #navbar a, #navbar li:hover #products_submenu, .Mainbody,.Aboutus1 {
+          float: none;
+          display: block;
+          text-align: left;
+          width: 100%;
+      }
+
+      }
+      @media (min-width: 1024px) {
+        /* Styles for desktops */
+
+        #navbar a, #navbar li:hover #products_submenu, .Mainbody,.Aboutus1 {
+          float: none;
+          display: block;
+          text-align: left;
+          width: 100%;
+      }
+      }
 
         
-    }
-      
+   
